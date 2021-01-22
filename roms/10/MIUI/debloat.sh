@@ -4,26 +4,15 @@ systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
 rm -rf $1/app/cit
-rm -rf $1/app/MiuiCompass
-rm -rf $1/app/MiuiVideoGlobal
 rm -rf $1/app/PaymentService
-rm -rf $1/app/Calculator
 rm -rf $1/priv-app/Backup
 rm -rf $1/priv-app/Browser
-rm -rf $1/priv-app/Calendar
-rm -rf $1/priv-app/MiuiScanner
 rm -rf $1/priv-app/Updater
-rm -rf $1/priv-app/Velvet
-rm -rf $1/priv-app/Weather
-rm -rf $1/priv-app/WeatherProvider
 rm -rf $1/app/VoiceAssist
-rm -rf $1/app/MiRadio
 rm -rf $1/app/Mipay
 rm -rf $1/app/NexyPay
 rm -rf $1/app/com.miui.qr
 rm -rf $1/app/MiuiBugReport
-rm -rf $1/priv-app/MiuiVideo
-rm -rf $1/priv-app/PersonalAssistant
 rm -rf $1/priv-app/MiService
 rm -rf $1/priv-app/Music
 rm -rf $1/data-app/MiShop
@@ -31,8 +20,6 @@ rm -rf $1/data-app/XiaoAiSpeechEngine
 rm -rf $1/data-app/Email
 rm -rf $1/data-app/BaiduIME
 rm -rf $1/data-app/MiFinance
-rm -rf $1/data-app/MiuiScanner
-rm -rf $1/data-app/MiuiCompass
 rm -rf $1/data-app/Userguide
 rm -rf $1/data-app/Huanji
 rm -rf $1/data-app/VirtualSim
@@ -44,13 +31,11 @@ rm -rf $1/data-app/Youpin
 rm -rf $1/data-app/com.baidu.haokan
 rm -rf $1/data-app/XMRemoteController
 rm -rf $1/data-app/com.moji.mjweather
-rm -rf $1/data-app/MiGalleryLockscreen
 rm -rf $1/data-app/com.xunmeng.pinduoduo
 rm -rf $1/data-app/Weather
 rm -rf $1/data-app/CleanMaster
 rm -rf $1/data-app/MiLiveAssistant
 rm -rf $1/data-app/MiuiDriveMode
-rm -rf $1/data-app/Health
 rm -rf $1/data-app/MiMobileNoti
 rm -rf $1/data-app/XiaomiJrSecurity
 rm -rf $1/data-app/XMPass
@@ -69,10 +54,8 @@ rm -rf $1/app/InMipay
 rm -rf $1/app/MSA-Global
 rm -rf $1/app/Maps
 rm -rf $1/app/MiPicks
-rm -rf $1/app/MiuiAudioMonitor
 rm -rf $1/app/MiuiVideoPlayer
 rm -rf $1/app/Music2
-rm -rf $1/app/Photos
 rm -rf $1/app/SystemAppUpdater
 rm -rf $1/app/TranslationService
 rm -rf $1/app/Videos
@@ -93,8 +76,8 @@ rm -rf $1/priv-app/Turbo
 rm -rf $1/priv-app/YellowPage
 rm -rf $1/priv-app/facebook-installer
 rm -rf $1/priv-app/facebook-services
-rm -rf $1/app/Lens
-rm -rf $1/product/priv-app/Velvet
+rm -rf $1/priv-app/MiMover
+rm -rf $1/priv-app/MiuiCamera
 rm -rf $1/product/priv-app/AndroidAutoStub
 rm -rf $1/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON
 rm -rf $1/product/priv-app/Turbo
