@@ -12,6 +12,7 @@ rm -rf $1/app/VoiceAssist
 rm -rf $1/app/Mipay
 rm -rf $1/app/NexyPay
 rm -rf $1/app/com.miui.qr
+rm -rf $1/app/Updater
 rm -rf $1/app/MiuiBugReport
 rm -rf $1/priv-app/MiService
 rm -rf $1/priv-app/Music
